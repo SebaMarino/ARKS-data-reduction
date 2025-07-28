@@ -8,10 +8,6 @@ Contributors: S. Marino
 
 import os, sys
 import numpy as np
-import matplotlib.pyplot as plt
-# Import the analysis utils functions
-sys.path.append('/arc/projects/ARKS/data/reduction/analysis_scripts/')
-import analysisUtils as au
 import shutil
 
 clight_kms= 2.99792458e+5 # [km/s] Speed of light
