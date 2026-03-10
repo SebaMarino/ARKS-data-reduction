@@ -693,7 +693,7 @@ def lines(system, Nms=1, cfg='', flines=[f12CO32, f13CO32], tags=['12CO', '13CO'
         if do_split_tav:
 
 
-            dt= tol * beam/system['Radius'] * 8.6400e5 /(2*np.pi) # s
+            dt= tol * beam/system['Radius'] * 8.6400e4 /(2*np.pi) # s
             timebin='%1.0fs'%(min(dt,60))
             print('Max time averaging: '+timebin)
         
